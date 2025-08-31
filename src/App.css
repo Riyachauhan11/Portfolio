@@ -1,0 +1,22 @@
+.main {
+  margin-left: 110px;
+}
+
+/* Initial state for section titles */
+.section__title {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+/* Animate when in viewport */
+.section__title.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+  }
+}
