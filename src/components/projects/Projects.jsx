@@ -58,7 +58,13 @@ const Projects = () => {
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" loading="lazy" />
+                <img
+                  src={image}
+                  alt=""
+                  className={`work__img ${id}-img`}
+                  onLoad={(e) => e.currentTarget.classList.add("loaded")}
+                  loading="lazy"
+                />
                 <div className="work__mask"></div>
               </div>
 
