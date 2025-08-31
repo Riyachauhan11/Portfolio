@@ -3,15 +3,20 @@ import "./projects.css";
 import Menu from "./Menu";
 
 const Projects = () => {
+  const [activeCategory, setActiveCategory] = useState("Fullstack");
+
   const [items, setItems] = useState(
-    Menu.filter((elem) => elem.category === "Fullstack")
+    Menu.filter((elem) => elem.category === activeCategory)
   );
 
   const filterItem = (categoryItem) => {
-    const updatedItems = Menu.filter((currentElem) => {
-      return currentElem.category === categoryItem;
-    });
+    if (categoryItem === activeCategory) return;
+
+    const updatedItems = Menu.filter(
+      (currentElem) => currentElem.category === categoryItem
+    );
     setItems(updatedItems);
+    setActiveCategory(categoryItem);
   };
 
   useEffect(() => {
@@ -21,9 +26,9 @@ const Projects = () => {
       card.classList.remove("animate");
       setTimeout(() => {
         card.classList.add("animate");
-      }, index * 100); // optional stagger for a nice effect
+      }, index * 100);
     });
-  }, [items]); // runs whenever the category changes
+  }, [items]);
 
   return (
     <section className="work container section" id="projects">
@@ -53,7 +58,7 @@ const Projects = () => {
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" />
+                <img src={image} alt="" className="work__img" loading="lazy" />
                 <div className="work__mask"></div>
               </div>
 
