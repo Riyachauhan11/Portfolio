@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6a812c0b.css",
+    "main.js": "/Portfolio/static/js/main.a46a8b69.js",
+    "static/media/Pixora.png": "/Portfolio/static/media/Pixora.43b474898e6359b5363a.png",
+    "static/media/house.png": "/Portfolio/static/media/house.3171abbd83d9f160ddff.png",
+    "static/media/currency.png": "/Portfolio/static/media/currency.cf0ec39d42914539a1ff.png",
+    "static/media/map.svg": "/Portfolio/static/media/map.a1fe1300ffe672966e05.svg",
+    "static/media/img3.png": "/Portfolio/static/media/img3.800bc5ffaa1d97ea8bfe.png",
+    "static/media/img1.png": "/Portfolio/static/media/img1.0255f4a2947999218859.png",
+    "static/media/img2.png": "/Portfolio/static/media/img2.684dd1ea455bcf0d04ee.png",
+    "static/media/travel itinerary planner.svg": "/Portfolio/static/media/travel itinerary planner.f1c9ca2b318b38cced1f14617712b832.svg",
+    "static/media/books.svg": "/Portfolio/static/media/books.a43cf2e0d065cc9d186a95d1fe28f70c.svg",
+    "static/media/patent1.svg": "/Portfolio/static/media/patent1.0eaa8d61f12db3751603dbc2620f562b.svg",
+    "static/media/query genie.svg": "/Portfolio/static/media/query genie.bfdb90e756e135e7ba5082d13b502907.svg",
+    "static/media/map-dark.png": "/Portfolio/static/media/map-dark.279fba7babaf7b19a260.png",
+    "static/media/patent2.svg": "/Portfolio/static/media/patent2.f9683087b394e6ecb58bf9887c677886.svg",
+    "static/media/travel.svg": "/Portfolio/static/media/travel.9f31958f5f28fd001f5dc3afa67cc53b.svg",
+    "static/media/ninja.svg": "/Portfolio/static/media/ninja.cba5d5893593dcc070633f199129f1db.svg",
+    "static/media/scrape.svg": "/Portfolio/static/media/scrape.99ac4155d5802a786d6a8e6db89ffb90.svg",
+    "static/media/2048.svg": "/Portfolio/static/media/2048.c70a378dc4d9529d2c0c322fa5fa8327.svg",
+    "static/media/dots-bg.svg": "/Portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "static/media/dots-bg-dark.svg": "/Portfolio/static/media/dots-bg-dark.337989bc13e6b95095a2.svg",
+    "static/media/itch-io.svg": "/Portfolio/static/media/itch-io.e06a0771d940eea6757d930aaa5cffe2.svg",
+    "static/media/DungeonCrawl.svg": "/Portfolio/static/media/DungeonCrawl.248a33c2c98e0eca92e0cad6390f20f7.svg",
+    "static/media/rocket.svg": "/Portfolio/static/media/rocket.4626f11c55f30522dc99d0ec0f0d993c.svg",
+    "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.ca8b82823ec3c4003b12a50a91dba5d9.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/avatar-2.svg": "/Portfolio/static/media/avatar-2.3431eb53c81a17fd87bae6616240cc46.svg",
+    "static/media/avatar-1.svg": "/Portfolio/static/media/avatar-1.a54157c1af2cace9d4a42ca67cee80ea.svg",
+    "main.6a812c0b.css.map": "/Portfolio/static/css/main.6a812c0b.css.map",
+    "main.a46a8b69.js.map": "/Portfolio/static/js/main.a46a8b69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a812c0b.css",
+    "static/js/main.a46a8b69.js"
+  ]
+}
