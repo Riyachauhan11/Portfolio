@@ -18,7 +18,7 @@ const Home = () => {
         <HeaderSocials />
 
         <a
-          href="https://drive.google.com/file/d/1k5Fzm98ol-cQH7EqRIm3FhEsBZBNwXL0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1GKQ44ecHJVkN92BBxwykwhsCQG9p6vqi/view?usp=sharing"
           className="btn"
         >
           Resume
